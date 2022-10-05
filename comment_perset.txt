@@ -1,0 +1,28 @@
+<div id="pre_comment">
+	<div id="comment">
+		<div id="top_comment">
+
+
+			<div id="user_info_comment">
+				<img id="user_profile_comment" src="https://ucarecdn.com/ac811836-c875-4981-8b34-62a9e58a0f9e/Defult_Profile.jpg">
+				<div id="wroted_time">&nbsp&nbspH-M-S</div><div id="wroted_date">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspY-M-D</div>
+				<div id="nickname_comment">nickname_place</div>
+			</div>
+
+
+
+			<div id="option_comment">
+					<a id="edit_comment" href="">수정</a><a id="delete_comment" onclick="remove_comment(this)">삭제</a>
+			</div>
+		</div>
+
+
+
+		<div id="bottom_comment">
+			<div id="comment_msg">
+
+
+			</div>	
+		</div>
+	</div>
+</div>

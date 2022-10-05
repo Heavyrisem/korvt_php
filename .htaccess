@@ -1,0 +1,5 @@
+ErrorDocument 400 http://korvt.rf.gd/error/400.php
+ErrorDocument 401 http://korvt.rf.gd/error/401.php
+ErrorDocument 403 http://korvt.rf.gd/error/403.php
+ErrorDocument 404 http://korvt.rf.gd/error/404.php
+ErrorDocument 503 http://korvt.rf.gd/error/503.php

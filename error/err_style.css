@@ -1,0 +1,41 @@
+.error_messages
+{
+	padding: 150px;
+}
+
+.err_code
+{
+	font-size: 100px;
+	color: #007eff;
+	font-family: 굴림;
+}
+
+.message
+{
+	font-size: 40px;
+	color: #007eff;
+	font-family: 굴림;
+}
+
+.message_inf
+{
+	color: #8c8c8c;
+	font-family: 굴림;
+}
+
+.server_img
+{
+	float: right;
+	width: 350px;
+	height: 350px;
+}
+
+h6
+{
+	font-size: 16px;
+}
+
+h4, h6
+{
+	margin: 0px;
+}

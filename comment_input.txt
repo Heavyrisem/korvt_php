@@ -1,0 +1,10 @@
+	<div id="input_comment">
+		<div id="input_top_comment">
+			<div id="input_user_info_comment">
+				<img id="input_user_profile_comment" src="profile_here">
+				<div id="input_nickname_comment">nickname_here</div>
+
+			</div>
+		</div>
+		<div id="input_comment_msg"><textarea id="comment_input"></textarea><input type="button" class="submit_btn" name="comment_submit" value="submit" onclick="comment_upload()"></div>
+	</div>

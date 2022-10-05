@@ -1,0 +1,538 @@
+body
+{
+	font-family: 'NanumBarunGothic','나눔바른고딕','NanumSquareR', '나눔스퀘어', 'applegothic', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+#my_info
+{
+	border: 1px solid #e6e6e6;
+	padding: 40px 34px 40px 34px;
+}
+
+#profile_img
+{
+	width: 300px;
+    height: 300px;
+    float: left;
+    border: 3px solid #e6e6e6;
+}
+
+#profile_div
+{
+	height: 300px;
+}
+
+#navbar
+{
+	height: 85px;
+	border-bottom: 1px solid gray;
+}
+
+#loginnav
+{
+	height: 45px;
+	color: #212121;
+	background-color: #2996cc;
+	position: relative;
+	vertical-align: bottom;
+	margin: 0 auto;
+}
+
+#main h6
+{
+	margin-top: 0px;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 6px;
+	padding-left: 10px;
+	width: 75px;
+}
+
+#main
+{
+	float: left;
+}
+
+.main_img
+{
+	width: 151px;
+}
+
+#menu
+{
+	float: right;
+	padding-top: 14px;
+}
+
+#lognavr
+{
+	margin-top: 0px;
+	float: right;
+	padding-right: 30px;
+}
+
+#lognavr li
+{
+	color: #fff;
+	padding: 0 9px;
+	float: left;
+}
+
+#lognavr li a
+{
+	color: #fff;
+}
+
+
+#pagenav
+{
+	float: left;
+	clear: both;
+}
+
+#viewpage h4
+{
+	width: 220px;
+	height: 140px;
+	background-color: #2996cc;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#page
+{
+	float: right;
+	border: 1px solid #e6e6e6;
+	padding: 40px 34px 40px 34px;
+	width: 850px;
+	box-sizing: border-box;
+}
+
+#contents
+{
+	width: 1100px;
+	height: auto;
+	margin: 30px auto 0 auto;
+}
+
+#pagelist
+{
+	margin-top: 10px;
+}
+
+#delete
+{
+	float: right;
+}
+
+#pagelist ul li
+{
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+	padding: 16px 18px 15px 18px;
+	color: #555;
+}
+
+#pagelist ul
+{
+	overflow: hidden;
+	margin-top: 10px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	padding: 0px;
+}
+
+.description_field
+{
+	width: 780px;
+	height: 480px;
+	resize: none;
+}
+
+.write_send_btn
+{
+	
+}
+
+#pagecon 
+{
+	border: 1px solid #d5d5d5;
+	padding: 20px;
+	margin: 0 auto;
+	height: auto;
+}
+
+#pagecon_su
+{
+	margin-bottom: 40px;
+	border: 0px;
+	border-bottom: 2px solid black;
+}
+/*
+#singup_field input[type="submit"]
+{
+	float: right;
+}
+*/
+.loginform
+{
+	overflow: hidden;
+	padding-top: 35px;
+	margin: 0 auto;
+	width: 420px;
+}
+
+#singup_field:after
+{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#id_check, #nickname_check
+{
+	display: inline-block;
+	text-align: center;
+	padding-right: 8px 17px 7px 17px;
+	margin-top: -1px;
+	color: #fff;
+	background: #555;
+}
+
+.table_class th
+{
+	padding: 12px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-family: "NanumBarunGothicB";
+    width: 96px;
+}
+
+.table_class
+{
+	border-top: 2px solid black;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#singup_submit_btn
+{
+	margin-bottom: 20px;
+	height: 44px;
+	text-align: center;
+	clear: both;
+}
+
+caption
+{
+	overflow: hidden;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+#singup_submit_btn input
+{
+	width: 154px;
+	padding: 13px 0;
+	border: none;
+	background: #268cbf;
+	font-family: "NanumBarunGothicB";
+	color: #fff;
+	font-size: 15px;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+.table_class td input[type="text"], input[type="password"]
+{
+	padding: 10px;
+	width: 180px;
+	height: 39px;
+	font-size: 14px;
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	line-height: 14px;
+}
+
+.table_class td
+{
+	padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    line-height: 24px;
+}
+
+#login_btn
+{
+	float: right;
+}
+
+#login_btn input
+{
+	text-align: center;
+	width: 110px;
+	height: 100px;
+	border: none;
+	color: #fff;
+	font-family: "NanumSquareB";
+	font-size:  18px;
+	background: #268cbf;
+	letter-spacing: -0.045em;
+	cursor: pointer;
+}
+
+#login_field
+{
+	float: left;
+}
+
+#check_pass_field
+{
+	float: left;
+    margin: 30px;
+    margin-left: 150px;
+    overflow: hidden;
+}
+
+#member_id, #member_pass
+{
+	width: 300px;
+	height: 45px;
+	padding: 14px 0 14px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #d5d5d5;
+	box-sizing: border-box;
+}
+
+.selected
+{
+	background-color: #00000094;
+}
+
+.onmouse
+{
+	background-color: #00000047; 
+}
+
+.selected p
+{
+	color: #fff;
+}
+
+.onmouse p
+{
+	color: #fff;
+}
+
+#chat_list
+{
+	overflow-y: scroll;
+	width: 761px;
+	height: 450px;
+	font-size: 20px;
+	margin: 0px;
+	border: 1px solid rgb(204, 204, 204);
+	clear: both;
+}
+/*input_comment*/
+#input_comment_msg 
+{
+	word-break:break-all;
+	width: 750px;
+	position: relative;
+	top: -35px;
+	margin-left: 120px;
+	margin-right: 100px;
+}
+
+#input_comment
+{
+	border: 1px solid #ddd;
+}
+
+#comment_input
+{ 
+	margin: 0px; 
+	width: 518px; 
+	height: 87px; 
+	float: left; 
+	position: relative; 
+	left: -60px;
+}
+
+.submit_btn
+{ 
+	padding-bottom: 37px; 
+	padding-top: 37px;  
+	padding-left: 16px; 
+	padding-right: 16px;
+	position: relative; 
+	left: -60px; 
+}
+#input_top_comment
+{
+	height: 100px;
+}
+
+#input_user_info_comment
+{
+	float: left;
+}
+
+#input_user_profile_comment
+{
+	width: 60px;
+	height: 60px;
+	margin: 20px 40px;
+	margin-right: 10px;
+}
+
+#input_nickname_comment
+{
+	float: right;
+	margin-top: 16px;
+	font-size: 20px;
+}
+
+/*comment*/
+#pre_comment
+{
+	display: none;
+	border: 1px solid #ddd;
+}
+
+#comment
+{
+	border: 1px solid #ddd;
+}
+
+.few_second_comment
+{
+	background-image: URL('/imgs/new_comment_img.png');
+	background-size: 5px 100%;
+	background-repeat: no-repeat;
+}
+
+#top_comment
+{
+	height: 100px;
+}
+
+#user_info_comment
+{
+	float: left;
+	height: 100px;
+}
+
+#user_profile_comment
+{
+	width: 60px;
+	height: 60px;
+	margin: 20px 40px;
+	margin-right: 10px;
+}
+
+#nickname_comment
+{
+	float: right;
+	margin-top: 16px;
+	font-size: 20px;
+}
+
+#option_comment
+{
+	float: right;
+	width: 100px;
+	height: 30px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+#delete_comment
+{
+	float: right;
+}
+
+#bottom_comment
+{
+	position: relative;
+	top: -40px;
+}
+
+#comment_msg
+{
+	width: 600px;
+	margin: auto;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	word-break: break-all;
+}
+
+#wroted_time
+{
+	float: right;
+	margin-top: 23px; 
+	font-size: 13px;
+}
+
+#wroted_date
+{
+	float: right;
+	margin-top: 23px;
+	font-size: 13px;
+}
+
+.clock_style
+{
+	width:600px;
+	height:250px;
+	line-height:250px;
+	color:#666;
+	font-size:100px;
+	text-align:center;
+	margin-left: 80px;
+}
+
+s
+{
+	color: gray;
+}
+
+p
+{
+	margin: 0px;
+}
+
+a
+{
+	color: #555;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #555;
+}
+
+a:visited
+{
+	color: #555;
+}
+
+ul
+{
+	list-style: none;
+}
