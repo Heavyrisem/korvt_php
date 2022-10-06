@@ -1,0 +1,49 @@
+version: "3"
+
+services:
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 3000:80
+    environment:
+      - PMA_HOST=korvt_db
+
+  mysql:
+    image: mysql:5.7
+    container_name: korvt_db
+    volumes:
+      - korvt_db:/var/lib/mysql
+      - ./mysql/config:/etc/mysql/conf.d
+      - ./mysql/config/init.sql:/data/application/init.sql
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --init-file=/data/application/init.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: korvt
+      time_zone: UTC
+
+  nginx:
+    image: nginx
+    container_name: korvt_nginx
+    volumes:
+      - ./web:/var/www/html #프로젝트 경로
+      - ./nginx:/etc/nginx/conf.d/
+    ports:
+      - 80:80
+    depends_on:
+      - php
+
+  php:
+    build: .
+    container_name: korvt_php
+    volumes:
+      - ./web:/var/www/html #프로젝트 경로
+    depends_on:
+      - mysql
+    # ports:
+    #   - "9000:9000"
+
+volumes:
+  korvt_db:
