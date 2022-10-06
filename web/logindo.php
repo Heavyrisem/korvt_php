@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <?php
-session_start();
+@session_start();
 extract($_POST);
 
 if ($id == NULL) {

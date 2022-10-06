@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 <?php 
 include 'loginDB.php';
 
@@ -10,7 +9,7 @@ $result =  mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 $rows = mysqli_num_rows($result);
 
-if ($is_logged == 'YES' && $user_id == $row['author'] && $rows == '1' or $user_id == 'Admin') {
+if ($is_logged == 'YES' && $user_id == $row['author'] or $user_id == 'Admin') {
 
 	;$delsql = "DELETE FROM topic WHERE id=".$id;
 

@@ -1,6 +1,7 @@
 <?php 
 	include('loginDB.php');
 	$result = mysqli_query($conn, $gettopic);
+	$id = $_GET['id'];
 
 	$sql = "SELECT * FROM topic WHERE id=".$id;
 
@@ -8,12 +9,11 @@
 	$row = mysqli_fetch_assoc($result);
 	$rows = mysqli_num_rows($result);
 
-	if ($is_logged == 'YES' && $user_id == $row['author'] && $rows == '1' or $user_id == 'Admin') {
+	if ($is_logged == 'YES' && $user_id == $row['author'] or $user_id == 'Admin') {
 		
 	}else{
 		echo "<script>alert(\"잘못된 접근입니다.\"); location.href='index.php';</script>";
 	}
-	$id = $_GET['id'];
 	echo $row['author'];
  ?>
 <!DOCTYPE html>
