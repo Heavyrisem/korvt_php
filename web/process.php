@@ -1,5 +1,6 @@
 <?php 	
 	include 'loginDB.php';
+	header('Location: index.php');
 
 	$nickname = $_SESSION['user_id'];
 	$description = $_POST['description'];
@@ -16,5 +17,4 @@
 		echo "<script>alert(\"잘못된 접근입니다\");</script>";
 	}
 
-	header('Location: index.php');
  ?>
