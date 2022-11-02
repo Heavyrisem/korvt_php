@@ -9,6 +9,7 @@ services:
       - PMA_HOST=korvt_db
 
   mysql:
+    platform: linux/amd64
     image: mysql:5.7
     container_name: korvt_db
     volumes:
